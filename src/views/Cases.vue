@@ -406,7 +406,6 @@ const viewDetail = (item) => {
 <style scoped>
 .cases-page {
   min-height: calc(100vh - 120px);
-  background: #f5f7fa;
   padding: 24px 0;
 }
 

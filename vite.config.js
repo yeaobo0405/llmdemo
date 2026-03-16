@@ -9,7 +9,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src')
     }
   },
-  base: process.env.NODE_ENV === 'production' ? '/overseas-llm2/' : './',
+  base: process.env.NODE_ENV === 'production' ? '/llmdemo/' : './',
   server: {
     port: 3000,
     open: true
